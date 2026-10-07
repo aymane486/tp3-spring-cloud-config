@@ -1,0 +1,8 @@
+INSERT INTO product (id, titre, description, image, prix) VALUES (0, 'Bougie fonctionnant au feu', 'bougie qui fonctionne comme une ampoule mais sans électricité !', '/blob/master/images/Bougie.PNG?raw=true', 22.0);
+INSERT INTO product (id, titre, description, image, prix) VALUES (1, 'Chaise pour s''assoire', 'Chaise rare avec non pas 1 ni 2 mais 3 pieds', '/blob/master/images/Chaise.PNG?raw=true', 95.0);
+INSERT INTO product (id, titre, description, image, prix) VALUES (2, 'Cheval pour nains', 'Ce cheval ne portera certainement pas blanche neige, mais sans problème les nains', '/blob/master/images/Cheval.PNG?raw=true', 360.0);
+INSERT INTO product (id, titre, description, image, prix) VALUES (3, 'Coq of steel, le superhero', 'Ne passe pas au four', '/blob/master/images/coq.PNG?raw=true', 620.0);
+INSERT INTO product (id, titre, description, image, prix) VALUES (4, 'Flacon à frotter avec un génie dedans', 'Vous donne droit à l''équivalent de 3/0 voeux', '/blob/master/images/lampe.PNG?raw=true', 1200.0);
+INSERT INTO product (id, titre, description, image, prix) VALUES (5, 'Horloge quantique', 'Donne l''heure, les minutes et même les secondes. Ne fait pas de café', '/blob/master/images/Horloge.PNG?raw=true', 180.0);
+INSERT INTO product (id, titre, description, image, prix) VALUES (6, 'Table d''opération pour hamster', 'Pour réaliser vos opérations chirurgicales sur votre Hamster!', '/blob/master/images/table%20d''op%C3%A9ration.PNG?raw=true', 210.0);
+INSERT INTO product (id, titre, description, image, prix) VALUES (7, 'Vase ayant appartenu à Zeus', 'Risque de choc électrique', '/blob/master/images/Vase.PNG?raw=true', 730.0);
