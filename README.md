@@ -18,13 +18,13 @@ git init
 git checkout -b master
 git add .
 git commit -m "first commit microservice-produits.properties"
-git remote add origin https://github.com/<TON_USER_GITHUB>/mcommerce-config-repo.git
+git remote add origin https://github.com/aymane486/mcommerce-config-repo.git
 git push -u origin master
 ```
 Mot de passe demandé = **token GitHub** (https://github.com/settings/tokens), pas le mot de passe du compte.
 
 ## 2. Lancer le Config Server
-1. Dans `config.server/src/main/resources/application.properties`, remplacer `<TON_USER_GITHUB>`.
+1. `config.server/src/main/resources/application.properties` pointe déjà vers `aymane486/mcommerce-config-repo`.
 2. Eclipse : *Import > Existing Maven Project*, puis *Run As > Spring Boot App* (ou `mvn spring-boot:run`).
 3. Tester :
    - http://localhost:9101/microservice-produits/default
